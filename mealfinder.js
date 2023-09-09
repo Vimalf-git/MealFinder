@@ -14,6 +14,7 @@ const findfood=async()=>{
         alert("no food found")
     }else{
         main.style.height="auto";
+        section.style.height="auto";
         res.meals.map(a=>{
             console.log("enter into map");
             let div = document.createElement("div");
@@ -29,8 +30,7 @@ const findfood=async()=>{
 
     section.append(div);
         })
-
-
+       
     }
     console.log(res);
     document.getElementById("search-con").value="";
