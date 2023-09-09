@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal-Finder</title>
+    <link href="./mealfinder.css" rel="styleSheet">
+    <link href="./bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="styleSheet">
+</head>
+<body>
+    <div class="main" id="main">
+        <!-- header -->
+        <header class="header">
+            <div class="head-tittle">
+                <h5>Meal-Finder</h5>
+            </div>
+            <div class="head-body">
+                <input type="search" id="search-con" class="input-group-text search-con" placeholder="Find Your Fav">
+                <button class="btn btn-warning" onclick="findfood()">Search</button>
+            </div>
+        </header>
+
+        <section class="food-list" id="food-list">
+
+        </section>
+    </div>
+
+    <script src="./mealfinder.js"></script>
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
